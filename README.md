@@ -14,7 +14,7 @@ Steps for Running the tool:
 2) cd AnonymousEmailSender/
 3) python download.py
 4) python EmailSender.py --help
-5) ppython EmailSender.py -f "fromEmail" -n "EmailSenderName" -t "ToEmail" -s "Subject" -m "Message"
+5) python EmailSender.py -f "fromEmail" -n "EmailSenderName" -t "ToEmail" -s "Subject" -m "Message"
 7) The mail will get sent :)
 
 
