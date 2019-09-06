@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import smtplib
-from email.MIMEMultipart import MIMEMultipart
-from email.MIMEText import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 import argparse
 
 
@@ -32,7 +32,7 @@ try:
 
 		msg['Subject'] = arguments.subject
 		message = arguments.message
-		msg.attach(MIMEText(message))
+		msg.attach(MIMEText(message,'html'))
 
 		def send_mail(api):
 			mailserver = smtplib.SMTP('smtp.sendgrid.net',587)
