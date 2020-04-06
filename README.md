@@ -2,7 +2,7 @@
 
 * When the program is run properly, it will send a mail from any account to the desired account
 
-* It makes use of SendGrid Servers and API keys to accomplush its task
+* It makes use of SendGrid Servers and API keys to accomplish its task
 
 * Please run the download.py file first in order to download the required files for program to work. Then run the EmailSender.py to successfully send the mail, and add in the arguments from the command line (Use -h for the options of the EmailSender.py file)
 
